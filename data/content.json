@@ -1,0 +1,116 @@
+{
+  "personal": {
+    "nom": "Rithik Mutsuddy",
+    "localisation": "Île-de-France",
+    "email": "[REPLACE_EMAIL]",
+    "github": "[REPLACE_GITHUB_URL]",
+    "linkedin": "[REPLACE_LINKEDIN_URL]"
+  },
+  "header": {
+    "links": [
+      { "label": "GitHub", "href": "[REPLACE_GITHUB_URL]" },
+      { "label": "LinkedIn", "href": "[REPLACE_LINKEDIN_URL]" },
+      { "label": "Email", "href": "mailto:[REPLACE_EMAIL]" }
+    ],
+    "cv": "/public/cv.pdf"
+  },
+  "hero": {
+    "title": "Candidatures 2026 : L2 Informatique / L3 MIAGE / Prépa ATS (Île-de-France)",
+    "subtitle": "Profil technique (BTS SIO SLAM, alternance SI) engagé dans une remise à niveau structurée en mathématiques et algorithmique pour atteindre le niveau attendu en licence.",
+    "buttons": [
+      { "label": "Voir les preuves", "href": "#preuves", "primary": false },
+      { "label": "Télécharger le CV (PDF)", "href": "/public/cv.pdf", "primary": true },
+      { "label": "Mini-dossier (PDF)", "href": "/public/dossier.pdf", "primary": false }
+    ]
+  },
+  "profil": {
+    "lines": [
+      "BTS SIO SLAM + expérience en alternance SI.",
+      "Constat : bases théoriques à renforcer (mathématiques / algorithmique).",
+      "Action : remise à niveau structurée hebdomadaire + dépôts GitHub + mini-dossier PDF.",
+      "Objectif : intégrer une formation exigeante (L2 / ATS) et performer dès la rentrée."
+    ]
+  },
+  "parcours": [
+    {
+      "range": "2023–2024",
+      "title": "BTS SIO SLAM",
+      "desc": "Formation professionnelle en développement et systèmes d’information."
+    },
+    {
+      "range": "2024–2025",
+      "title": "Alternance / expériences SI",
+      "desc": "Missions en équipe, contributions sur projets applicatifs."
+    },
+    {
+      "range": "2025",
+      "title": "Remise à niveau organisée",
+      "desc": "Plan hebdomadaire en mathématiques et algorithmique."
+    },
+    {
+      "range": "2026",
+      "title": "Objectif académique",
+      "desc": "Candidatures : L2 Informatique, L3 MIAGE, Prépa ATS (Île-de-France)."
+    }
+  ],
+  "niveau": {
+    "math": [
+      "✅ Fonctions & limites",
+      "🔄 Dérivées & étude de fonctions",
+      "🔄 Matrices & systèmes linéaires (méthode de Gauss)",
+      "📌 Logique (∀, ∃) & raisonnement",
+      "📌 Récurrence (bases)"
+    ],
+    "algo": [
+      "✅ Python (bases, fonctions)",
+      "🔄 Tableaux / listes",
+      "🔄 Recherche",
+      "📌 Tris (bulle, insertion)",
+      "📌 Récursivité simple",
+      "📌 Complexité (intuition O(n), O(n²))"
+    ]
+  },
+  "preuves": [
+    {
+      "title": "Maths L1 — Remise à niveau",
+      "desc": "Notes et exercices structurés (analyse, algèbre linéaire, logique).",
+      "href": "[REPLACE_REPO_MATH]",
+      "button": "Ouvrir",
+      "pdf": false
+    },
+    {
+      "title": "Algorithmique L1 — Python",
+      "desc": "Implémentations commentées (recherche, tris, récursivité, complexité).",
+      "href": "[REPLACE_REPO_ALGO]",
+      "button": "Ouvrir",
+      "pdf": false
+    },
+    {
+      "title": "Mini-dossier de remise à niveau (PDF)",
+      "desc": "Synthèse courte : progression, exemples, objectifs.",
+      "href": "/public/dossier.pdf",
+      "button": "Télécharger",
+      "pdf": true
+    },
+    {
+      "title": "CV (PDF)",
+      "desc": "Version sobre et lisible pour candidatures.",
+      "href": "/public/cv.pdf",
+      "button": "Télécharger",
+      "pdf": true
+    }
+  ],
+  "contact": {
+    "email": "[REPLACE_EMAIL]",
+    "linkedin": "[REPLACE_LINKEDIN_URL]",
+    "github": "[REPLACE_GITHUB_URL]"
+  },
+  "footer": {
+    "name": "Rithik Mutsuddy",
+    "year": "2026",
+    "links": [
+      { "label": "GitHub", "href": "[REPLACE_GITHUB_URL]" },
+      { "label": "LinkedIn", "href": "[REPLACE_LINKEDIN_URL]" }
+    ]
+  }
+}
