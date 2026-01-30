@@ -101,16 +101,17 @@
     }
   ],
   "contact": {
-    "email": "[REPLACE_EMAIL]",
-    "linkedin": "[REPLACE_LINKEDIN_URL]",
-    "github": "[REPLACE_GITHUB_URL]"
+    "email": "rithik.mutsuddy02@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rithik-mutsuddy-48115a250/",
+    "github": "Rithik Mutsuddy"
   },
   "footer": {
     "name": "Rithik Mutsuddy",
     "year": "2026",
     "links": [
-      { "label": "GitHub", "href": "[REPLACE_GITHUB_URL]" },
-      { "label": "LinkedIn", "href": "[REPLACE_LINKEDIN_URL]" }
+      { "label": "GitHub", "href": "https://github.com/Rithik-Mutsuddy" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/rithik-mutsuddy-48115a250/" }
     ]
   }
 }
+
