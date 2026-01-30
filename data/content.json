@@ -2,15 +2,15 @@
   "personal": {
     "nom": "Rithik Mutsuddy",
     "localisation": "Île-de-France",
-    "email": "[REPLACE_EMAIL]",
-    "github": "[REPLACE_GITHUB_URL]",
-    "linkedin": "[REPLACE_LINKEDIN_URL]"
+    "email": "rithik.mutsuddy02@gmail.com",
+    "github": "Rithik Mutsuddy ",
+    "linkedin": "Rithik Mutsuddy "
   },
   "header": {
     "links": [
-      { "label": "GitHub", "href": "[REPLACE_GITHUB_URL]" },
-      { "label": "LinkedIn", "href": "[REPLACE_LINKEDIN_URL]" },
-      { "label": "Email", "href": "mailto:[REPLACE_EMAIL]" }
+      { "label": "GitHub", "href": "https://github.com/Rithik-Mutsuddy" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/rithik-mutsuddy-48115a250/" },
+      { "label": "Email", "href": "mailto:rithik.mutsuddy02@gmail.com" }
     ],
     "cv": "./public/cv.pdf"
   },
@@ -102,7 +102,7 @@
   ],
   "contact": {
     "email": "rithik.mutsuddy02@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/rithik-mutsuddy-48115a250/",
+    "linkedin": "Rithik Mutsuddy",
     "github": "Rithik Mutsuddy"
   },
   "footer": {
@@ -114,4 +114,5 @@
     ]
   }
 }
+
 
