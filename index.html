@@ -3,21 +3,29 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Candidatures 2026 — L2 / L3 MIAGE / Prépa ATS</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Portfolio académique — candidatures 2026 : L2 Informatique / L3 MIAGE / Prépa ATS (Île-de-France)." />
+  <title>Candidatures 2026 — L2 Informatique / L3 MIAGE / Prépa ATS</title>
+
+  <!-- GitHub Pages safe: relative path -->
+  <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
+  <!-- Skip link (accessibility) -->
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
   <header class="site-header" role="banner">
     <div class="container header-inner">
-      <div class="brand" aria-hidden="true">
-        <!-- Visual brand (text-only) -->
+      <div class="brand">
         <strong id="brand-title">Portfolio académique</strong>
       </div>
+
       <nav id="main-nav" class="nav" role="navigation" aria-label="Navigation principale">
         <ul class="nav-list">
           <!-- Populated from content.json -->
         </ul>
       </nav>
+
       <div class="header-actions" id="header-actions">
         <!-- Populated from content.json -->
       </div>
@@ -25,11 +33,22 @@
   </header>
 
   <main id="main" role="main" class="container">
+    <!-- If JS is disabled, user still understands what to do -->
+    <noscript>
+      <section class="section">
+        <h2>JavaScript requis</h2>
+        <p>
+          Ce site charge son contenu depuis un fichier JSON. Activez JavaScript pour afficher le contenu.
+        </p>
+      </section>
+    </noscript>
+
     <section id="hero" class="hero" aria-labelledby="hero-title">
       <div class="hero-inner">
         <h1 id="hero-title"></h1>
         <p id="hero-subtitle" class="hero-subtitle"></p>
-        <div class="hero-actions" id="hero-actions" aria-hidden="false">
+
+        <div class="hero-actions" id="hero-actions">
           <!-- Buttons populated by JS -->
         </div>
       </div>
@@ -37,7 +56,7 @@
 
     <nav class="page-toc" aria-label="Aller aux sections">
       <ul id="toc-list">
-        <!-- small anchor list populated by JS for quick access -->
+        <!-- Populated by JS -->
       </ul>
     </nav>
 
@@ -57,21 +76,27 @@
 
     <section id="niveau" class="section" aria-labelledby="niveau-heading">
       <h2 id="niveau-heading">Remise à niveau</h2>
+
       <div class="grid-two" id="niveau-grid">
         <div class="card" id="niveau-math" aria-labelledby="niveau-math-title">
           <h3 id="niveau-math-title">Mathématiques (L1)</h3>
-          <ul id="niveau-math-list"></ul>
+          <ul id="niveau-math-list">
+            <!-- Populated by JS -->
+          </ul>
         </div>
+
         <div class="card" id="niveau-algo" aria-labelledby="niveau-algo-title">
           <h3 id="niveau-algo-title">Algorithmique (L1)</h3>
-          <ul id="niveau-algo-list"></ul>
+          <ul id="niveau-algo-list">
+            <!-- Populated by JS -->
+          </ul>
         </div>
       </div>
     </section>
 
     <section id="preuves" class="section" aria-labelledby="preuves-heading">
       <h2 id="preuves-heading">Preuves et documents</h2>
-      <div id="preuves-grid" class="preuves-grid" role="list">
+      <div id="preuves-grid" class="preuves-grid" role="list" aria-label="Preuves (liens et documents)">
         <!-- Cards populated by JS -->
       </div>
     </section>
@@ -90,6 +115,7 @@
     </div>
   </footer>
 
-  <script src="main.js" defer></script>
+  <!-- GitHub Pages safe: relative path -->
+  <script src="./main.js" defer></script>
 </body>
 </html>
