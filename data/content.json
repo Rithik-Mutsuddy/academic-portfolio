@@ -12,15 +12,15 @@
       { "label": "LinkedIn", "href": "[REPLACE_LINKEDIN_URL]" },
       { "label": "Email", "href": "mailto:[REPLACE_EMAIL]" }
     ],
-    "cv": "/public/cv.pdf"
+    "cv": "./public/cv.pdf"
   },
   "hero": {
     "title": "Candidatures 2026 : L2 Informatique / L3 MIAGE / Prépa ATS (Île-de-France)",
     "subtitle": "Profil technique (BTS SIO SLAM, alternance SI) engagé dans une remise à niveau structurée en mathématiques et algorithmique pour atteindre le niveau attendu en licence.",
     "buttons": [
       { "label": "Voir les preuves", "href": "#preuves", "primary": false },
-      { "label": "Télécharger le CV (PDF)", "href": "/public/cv.pdf", "primary": true },
-      { "label": "Mini-dossier (PDF)", "href": "/public/dossier.pdf", "primary": false }
+      { "label": "Télécharger le CV (PDF)", "href": "./public/cv.pdf", "primary": true },
+      { "label": "Mini-dossier (PDF)", "href": "./public/dossier.pdf", "primary": false }
     ]
   },
   "profil": {
@@ -88,14 +88,14 @@
     {
       "title": "Mini-dossier de remise à niveau (PDF)",
       "desc": "Synthèse courte : progression, exemples, objectifs.",
-      "href": "/public/dossier.pdf",
+      "href": "./public/dossier.pdf",
       "button": "Télécharger",
       "pdf": true
     },
     {
       "title": "CV (PDF)",
       "desc": "Version sobre et lisible pour candidatures.",
-      "href": "/public/cv.pdf",
+      "href": "./public/cv.pdf",
       "button": "Télécharger",
       "pdf": true
     }
