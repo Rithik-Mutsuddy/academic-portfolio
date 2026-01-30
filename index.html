@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Candidatures 2026 — L2 / L3 MIAGE / Prépa ATS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand" aria-hidden="true">
+        <!-- Visual brand (text-only) -->
+        <strong id="brand-title">Portfolio académique</strong>
+      </div>
+      <nav id="main-nav" class="nav" role="navigation" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <!-- Populated from content.json -->
+        </ul>
+      </nav>
+      <div class="header-actions" id="header-actions">
+        <!-- Populated from content.json -->
+      </div>
+    </div>
+  </header>
+
+  <main id="main" role="main" class="container">
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <h1 id="hero-title"></h1>
+        <p id="hero-subtitle" class="hero-subtitle"></p>
+        <div class="hero-actions" id="hero-actions" aria-hidden="false">
+          <!-- Buttons populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <nav class="page-toc" aria-label="Aller aux sections">
+      <ul id="toc-list">
+        <!-- small anchor list populated by JS for quick access -->
+      </ul>
+    </nav>
+
+    <section id="profil" class="section" aria-labelledby="profil-heading">
+      <h2 id="profil-heading">Profil</h2>
+      <div id="profil-content" class="section-content">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <section id="parcours" class="section" aria-labelledby="parcours-heading">
+      <h2 id="parcours-heading">Parcours</h2>
+      <ol id="parcours-list" class="timeline" aria-live="polite">
+        <!-- Populated by JS -->
+      </ol>
+    </section>
+
+    <section id="niveau" class="section" aria-labelledby="niveau-heading">
+      <h2 id="niveau-heading">Remise à niveau</h2>
+      <div class="grid-two" id="niveau-grid">
+        <div class="card" id="niveau-math" aria-labelledby="niveau-math-title">
+          <h3 id="niveau-math-title">Mathématiques (L1)</h3>
+          <ul id="niveau-math-list"></ul>
+        </div>
+        <div class="card" id="niveau-algo" aria-labelledby="niveau-algo-title">
+          <h3 id="niveau-algo-title">Algorithmique (L1)</h3>
+          <ul id="niveau-algo-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="preuves" class="section" aria-labelledby="preuves-heading">
+      <h2 id="preuves-heading">Preuves et documents</h2>
+      <div id="preuves-grid" class="preuves-grid" role="list">
+        <!-- Cards populated by JS -->
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <div id="contact-content" class="section-content">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner" id="footer-inner">
+      <!-- Populated by JS -->
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
